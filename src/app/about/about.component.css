@@ -1,0 +1,144 @@
+.about-new {
+    padding: 80px 20px;
+    background: linear-gradient(120deg, #5b528b, rgb(139, 118, 118));
+    color: #fff;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .about-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .about-header h2 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .about-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .about-text {
+    flex: 1 1 500px;
+  }
+  
+  .about-text h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+  
+  .about-image img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+  .about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-frame {
+    width: 260px;
+    height: 260px;
+    border: 6px solid #fff;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* ensures full coverage */
+    object-position: center;
+    display: block;
+  }
+  
+  
+  /* Skills Section */
+  .skills-new {
+    margin-top: 60px;
+  }
+  
+  .skills-new h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .skills-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px 30px;
+    flex: 1 1 250px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-box h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #ffd;
+  }
+  
+  .skill-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #eee;
+  }
+  
+  .skill-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .about-main {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text {
+      order: 2;
+    }
+  
+    .about-image img {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+  }
+  

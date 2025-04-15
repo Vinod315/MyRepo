@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(120deg, #5b528b, rgb(139, 118, 118));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .contact-container {
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .contact-card {
+    background:   linear-gradient(120deg, #5b528b,rgb(139, 118, 118));
+    border-radius: 16px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    color: #fff;
+    text-align:center;
+  }
+  
+  .contact-card h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  
+  .contact-card p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #eee;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right:40px;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .form-group i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px 12px 12px 36px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background:black;
+    color:white;
+    font-size: 1rem;
+  }
+  .form-group i {
+      position: absolute;
+      left: 12px;
+      top: 14px;
+      transform: none;
+      color: #ccc;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+    line-height: 1.4;
+  }
+  
+  .send-btn {
+    background: #261669;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background: #100a32;
+  }
+  
+  .contact-socials {
+    margin-top: 25px;
+  }
+  
+  .contact-socials a {
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-socials a:hover {
+    color: #ffd700;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .contact-card {
+      padding: 30px 20px;
+    }
+  }
+  
