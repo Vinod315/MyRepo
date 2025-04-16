@@ -14,16 +14,16 @@
   
   /* Optional wrapper for background color (if needed) */
   .career-wrapper {
-    width: 100%;
+    width: 80%;
     background: #f4f6fb;
   }
   
   /* Full-width on laptops, centered on smaller */
   .career-container {
-    width: 100%;
+    width: 90%;
     padding: 40px 30px;
     background:linear-gradient(120deg, #5b528b,rgb(139, 118, 118));
-    border-radius: 20px;
+    border-radius: 0px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     box-sizing: border-box;
   }
@@ -39,7 +39,7 @@
   /* Header */
   .career-content h2 {
     text-align: center;
-    color: #261669;
+    color: white;
     font-size: 2.5rem;
     margin-bottom: 50px;
   }
