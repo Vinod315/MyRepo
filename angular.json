@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/portfolio",
-            "index": "src/index.html",
+            "index": "public/index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -26,7 +26,9 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              "src/public"
+
             ],
             "styles": [
               "src/styles.css"
