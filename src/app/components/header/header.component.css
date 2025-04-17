@@ -35,10 +35,11 @@ body {
 
 /* Welcome Text */
 nav:first-child {
-    font-size: 1.5rem;
+    font-size: 1 rem;
     font-weight: bold;
     color: white;
     text-align: center;
+    
 }
 
 /* Navigation Links */
@@ -52,7 +53,7 @@ nav:first-child {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
-    padding: 8px 12px;
+    padding: 8px 8px;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }

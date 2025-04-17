@@ -3,6 +3,10 @@
   background: linear-gradient(120deg, #5b528b, rgb(139, 118, 118));
   color: white;
 }
+p{
+  color: white;
+
+}
 
 /* Home section */
 .home-unique, .home {
@@ -63,6 +67,8 @@
 
 .highlight-card ul {
   padding-left: 20px;
+  color:white;
+
 }
 
 .highlight-card li {
