@@ -8,7 +8,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-    title = 'Chekresh Portfolio';
+    title = ' Portfolio';
     isScrolled = false;
     activeSection = '';
 
